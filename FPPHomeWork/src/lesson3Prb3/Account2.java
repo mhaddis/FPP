@@ -51,4 +51,3 @@ public class Account2 {
 		return acctType;
 	}
 }
-

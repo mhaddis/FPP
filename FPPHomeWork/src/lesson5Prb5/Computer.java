@@ -23,6 +23,10 @@ public class Computer {
 
 	}
 
+	public void setRamSize(int ramSize) {
+		this.ramSize = ramSize;
+	}
+
 	double getProcessorSpeed() {
 		return processorSpeed;
 	}
@@ -36,8 +40,8 @@ public class Computer {
 
 	public String toString() {
 
-		return "Manufacturer Name: " + this.manufacturer + "Processor: " + this.processor + "RAM size: " + this.ramSize
-				+ "Processor Speed: " + this.processorSpeed;
+		return "Manufacturer Name: " + this.manufacturer + "	Processor: " + this.processor + "	RAM size: " + this.ramSize
+				+ "		Processor Speed: " + this.processorSpeed;
 	}
 
 	@Override

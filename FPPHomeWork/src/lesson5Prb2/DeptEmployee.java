@@ -12,7 +12,6 @@ public class DeptEmployee {
         this.name = name;
         this.salary = salary;
         this.hireDate = LocalDate.of(aYear,aMonth,aDay);
-;
     }
   
     public double computeSalary() {

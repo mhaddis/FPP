@@ -79,6 +79,7 @@ public class Metric extends JFrame {
 			txtL.setText(String.format("%.2f", lt));
 			txtC.setText(String.format("%.2f", ct));
 		});
+		
 	}
 
 	public static void main(String[] ar) {
